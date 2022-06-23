@@ -1,0 +1,201 @@
+/* main */
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 5fr 3fr;
+  grid-template-rows: 3fr 3fr;
+  align-content: center;
+  justify-content: start;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.containers {
+  width: 400px;
+  margin: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+/* title */
+
+h2 {
+  text-indent: 5px;
+  font-weight: light;
+  padding: 5px;
+}
+p {
+  height: 100px;
+  margin-bottom: 40px;
+}
+.title-container {
+  display: flex;
+  margin-bottom: 100px;
+}
+.title {
+  width: 150px;
+  color: #fff;
+  background-color: #363c5f;
+}
+.title-head {
+  background-color: #6ebe45;
+  margin-right: 5px;
+}
+
+/* button */
+
+.button {
+  width: 285px;
+  height: 56px;
+  font-size: 19px;
+  border-radius: 40px;
+  border: 2px solid #0692bc;
+  color: #0c5576;
+  overflow: hidden;
+  background-color: #fff;
+  background: radial-gradient(circle at left, #0692bc 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+
+.button:focus span {
+  display: none;
+}
+.button:focus:before {
+  content: 'Hover';
+  color: #fff;
+}
+.button:focus {
+  background-position: left bottom;
+  background-size: 200% 100%;
+  transition: 0.5s ease-out;
+}
+
+/* search box */
+
+.search-input {
+  position: absolute;
+  width: 167px;
+  height: 41px;
+  background-color: #fff;
+  background: url('./assets/search.svg') no-repeat right 15px center;
+  border-radius: 40px;
+  border: 2px solid #0692bc;
+  box-shadow: none;
+  text-indent: 15px;
+  text-transform: none;
+  font-size: 22px;
+  color: #363c5f;
+  z-index: 1;
+}
+
+.search-input:focus {
+  width: 360px;
+  outline: none;
+  border: 6px solid #0692bc;
+  transition: ease-out 0.3s;
+}
+
+/* login form */
+
+.login-user-input {
+  position: absolute;
+  top: 200px;
+  width: 283px;
+  height: 37px;
+  background-color: #fff;
+  background: url('./assets/login-person.svg') no-repeat left 20px center;
+  border-radius: 40px;
+  border: 2px solid #0692bc;
+  box-shadow: none;
+  text-indent: 40px;
+  text-transform: none;
+  font-size: 22px;
+  color: #363c5f;
+  z-index: 1;
+}
+
+.login-user-input:focus {
+  outline: none;
+  border: 6px solid #0692bc;
+  background-color: #f4f0f0;
+  transition: ease-out 0.3s;
+}
+
+.login-password-input {
+  position: absolute;
+  width: 283px;
+  height: 37px;
+  top: 280px;
+  background-color: #fff;
+  background: url('./assets/login-lock.svg') no-repeat left 14px center;
+  border-radius: 40px;
+  border: 2px solid #0692bc;
+  box-shadow: none;
+  text-indent: 40px;
+  text-transform: none;
+  font-size: 22px;
+  color: #363c5f;
+  z-index: 1;
+}
+
+.login-password-input:focus {
+  outline: none;
+  border: 6px solid #0692bc;
+  background-color: #f4f0f0;
+  transition: ease-out 0.3s;
+}
+
+/* steps */
+
+.steps {
+  position: absolute;
+  top: 650px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 784px;
+  height: 100px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 33px;
+  font-size: 18px;
+  border-radius: 40px;
+  color: #fff;
+  background-color: #0692bc;
+  cursor: pointer;
+}
+
+.step:hover {
+  height: 100px;
+  background: url('./assets/drop.svg') no-repeat center 10px;
+  cursor: pointer;
+}
+
+.step-line {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 760px;
+  left: 90px;
+  width: 688px;
+  height: 5px;
+  background-color: #b9b9b9;
+  border-radius: 10px;
+}
+
+.step-point {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
