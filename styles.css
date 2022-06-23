@@ -199,3 +199,100 @@ p {
   background-color: rgb(0, 0, 0);
   border-radius: 10px;
 }
+
+/* social media icon */
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 784px;
+  height: 80px;
+}
+
+.instagram {
+  position: absolute;
+  top: 660px;
+  left: 1050px;
+  width: 60px;
+  height: 60px;
+  background: url('./assets/social/instagram.svg') no-repeat center;
+  cursor: pointer;
+}
+.instagram:hover {
+  background: url('./assets/social/instagram-hover.svg') no-repeat center;
+}
+.facebook {
+  position: absolute;
+  top: 660px;
+  left: 1130px;
+  width: 60px;
+  height: 60px;
+  background: url('./assets/social/facebook.svg') no-repeat center;
+  cursor: pointer;
+}
+.facebook:hover {
+  background: url('./assets/social/facebook-hover.svg') no-repeat center;
+}
+.twitter {
+  position: absolute;
+  top: 660px;
+  left: 1210px;
+  width: 60px;
+  height: 60px;
+  background: url('./assets/social/twitter.svg') no-repeat center;
+  cursor: pointer;
+}
+.twitter:hover {
+  background: url('./assets/social/twitter-hover.svg') no-repeat center;
+}
+.pinterest {
+  position: absolute;
+  top: 660px;
+  left: 1290px;
+  width: 60px;
+  height: 60px;
+  background: url('./assets/social/pinterest.svg') no-repeat center;
+  cursor: pointer;
+}
+.pinterest:hover {
+  background: url('./assets/social/pinterest-hover.svg') no-repeat center;
+}
+.tiktok {
+  position: absolute;
+  top: 660px;
+  left: 1370px;
+  width: 60px;
+  height: 60px;
+  background: url('./assets/social/tiktok.svg') no-repeat center;
+  cursor: pointer;
+}
+.tiktok:hover {
+  height: 65px;
+  width: 65px;
+  background: url('./assets/social/tiktok-hover.svg') no-repeat center;
+}
+.whatsapp {
+  position: absolute;
+  top: 660px;
+  left: 1450px;
+  width: 60px;
+  height: 60px;
+  background: url('./assets/social/whatsapp.svg') no-repeat center;
+  cursor: pointer;
+}
+.whatsapp:hover {
+  background: url('./assets/social/whatsapp-hover.svg') no-repeat center;
+}
+.youtube {
+  position: absolute;
+  top: 660px;
+  left: 1530px;
+  width: 60px;
+  height: 60px;
+  background: url('./assets/social/youtube.svg') no-repeat center;
+  cursor: pointer;
+}
+.youtube:hover {
+  background: url('./assets/social/youtube-hover.svg') no-repeat center;
+}
