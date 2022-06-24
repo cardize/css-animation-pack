@@ -153,11 +153,11 @@ p {
 
 .steps {
   position: absolute;
-  top: 650px;
+  top: 600px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  width: 784px;
+  width: 800px;
   height: 100px;
 }
 
@@ -176,18 +176,28 @@ p {
 
 .step:hover {
   height: 100px;
-  background: url('./assets/drop.svg') no-repeat center 10px;
+  background-color: #6ebe45;
+  border-radius: 40px;
+  transition: ease-out 0.9s;
   cursor: pointer;
+  width: 100px;
+  height: 100px;
+  border-radius: 50% 50% 50% 0;
+  text-transform: rotate(45deg);
+  transform: rotate(-45deg);
+  left: 2px;
 }
-
+.step:hover h5 {
+  transform: rotate(45deg);
+}
 .step-line {
   position: absolute;
+  top: 725px;
+  left: 103px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  top: 760px;
-  left: 90px;
-  width: 688px;
+  width: 680px;
   height: 5px;
   background-color: #b9b9b9;
   border-radius: 10px;
