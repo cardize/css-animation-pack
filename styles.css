@@ -153,7 +153,7 @@ p {
 
 .steps {
   position: absolute;
-  top: 600px;
+  top: 480px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -178,7 +178,7 @@ p {
   height: 100px;
   background-color: #6ebe45;
   border-radius: 40px;
-  transition: ease-out 0.9s;
+  transition: ease-out 0.7s;
   cursor: pointer;
   width: 100px;
   height: 100px;
@@ -192,7 +192,7 @@ p {
 }
 .step-line {
   position: absolute;
-  top: 725px;
+  top: 610px;
   left: 75px;
   display: flex;
   align-items: center;
@@ -305,4 +305,41 @@ p {
 }
 .youtube:hover {
   background: url('./assets/social/youtube-hover.svg') no-repeat center;
+}
+
+/*  checkbox  */
+
+.checkbox-square {
+  position: absolute;
+  top: 900px;
+  left: 150px;
+  appearance: none;
+  height: 40px;
+  width: 40px;
+  border: 3px solid #265473;
+  border-radius: 5px;
+  transform: rotate(45deg);
+}
+
+.checkbox-square:focus {
+  background-color: #265473;
+  background: url('./assets/checked.svg') no-repeat center;
+  transition: ease-out 0.5s;
+  transform: rotate(0deg);
+}
+
+.checkbox-circle {
+  position: absolute;
+  top: 900px;
+  left: 80px;
+  appearance: none;
+  height: 40px;
+  width: 40px;
+  border: 3px solid #265473;
+  border-radius: 100%;
+}
+
+.checkbox-circle:focus {
+  border: 12px solid #265473;
+  transition: ease-out 0.3s;
 }
