@@ -16,7 +16,7 @@
   margin-right: 20px;
   margin-left: 20px;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 /* title */
@@ -35,7 +35,7 @@ p {
   margin-bottom: 100px;
 }
 .title {
-  width: 150px;
+  width: 220px;
   color: #fff;
   background-color: #363c5f;
 }
@@ -343,3 +343,5 @@ p {
   border: 12px solid #265473;
   transition: ease-out 0.3s;
 }
+
+/*  calendar  */
