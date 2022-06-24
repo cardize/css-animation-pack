@@ -13,10 +13,10 @@
 
 .containers {
   width: 400px;
-  margin: 100px;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 /* title */
@@ -193,11 +193,11 @@ p {
 .step-line {
   position: absolute;
   top: 725px;
-  left: 103px;
+  left: 75px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 680px;
+  width: 678px;
   height: 5px;
   background-color: #b9b9b9;
   border-radius: 10px;
@@ -222,8 +222,8 @@ p {
 
 .instagram {
   position: absolute;
-  top: 660px;
-  left: 1050px;
+  top: 560px;
+  left: 920px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/instagram.svg') no-repeat center;
@@ -234,8 +234,8 @@ p {
 }
 .facebook {
   position: absolute;
-  top: 660px;
-  left: 1130px;
+  top: 560px;
+  left: 1000px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/facebook.svg') no-repeat center;
@@ -246,8 +246,8 @@ p {
 }
 .twitter {
   position: absolute;
-  top: 660px;
-  left: 1210px;
+  top: 560px;
+  left: 1080px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/twitter.svg') no-repeat center;
@@ -258,8 +258,8 @@ p {
 }
 .pinterest {
   position: absolute;
-  top: 660px;
-  left: 1290px;
+  top: 560px;
+  left: 1160px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/pinterest.svg') no-repeat center;
@@ -270,8 +270,8 @@ p {
 }
 .tiktok {
   position: absolute;
-  top: 660px;
-  left: 1370px;
+  top: 560px;
+  left: 1240px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/tiktok.svg') no-repeat center;
@@ -284,8 +284,8 @@ p {
 }
 .whatsapp {
   position: absolute;
-  top: 660px;
-  left: 1450px;
+  top: 560px;
+  left: 1320px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/whatsapp.svg') no-repeat center;
@@ -296,8 +296,8 @@ p {
 }
 .youtube {
   position: absolute;
-  top: 660px;
-  left: 1530px;
+  top: 560px;
+  left: 1400px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/youtube.svg') no-repeat center;
