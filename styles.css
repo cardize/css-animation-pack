@@ -326,14 +326,12 @@ p {
   background: url('./assets/social/pinterest-hover.svg') no-repeat center;
 }
 .tiktok {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   background: url('./assets/social/tiktok.svg') no-repeat center;
   cursor: pointer;
 }
 .tiktok:hover {
-  height: 45px;
-  width: 45px;
   background: url('./assets/social/tiktok-hover.svg') no-repeat center;
 }
 .whatsapp {
