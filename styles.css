@@ -99,7 +99,6 @@ p {
   transition: ease-out 0.6s;
   animation-name: draw-border;
   animation-duration: 2s;
-  animation-timing-function: ease-out 1s;
   animation-fill-mode: forwards;
 }
 @keyframes draw-border {
@@ -151,7 +150,6 @@ p {
   transition: ease-out 0.6s;
   animation-name: form-animation;
   animation-duration: 2s;
-  animation-timing-function: ease-out 1s;
   animation-fill-mode: forwards;
 }
 
@@ -177,7 +175,6 @@ p {
   transition: ease-out 0.6s;
   animation-name: form-animation;
   animation-duration: 2s;
-  animation-timing-function: ease-out 1s;
   animation-fill-mode: forwards;
 }
 
