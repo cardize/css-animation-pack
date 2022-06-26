@@ -78,6 +78,7 @@ p {
 }
 
 /* search box */
+
 .wrapper {
   display: grid;
   align-items: center;
@@ -101,7 +102,7 @@ p {
   outline: none;
   transition: ease-out 0.6s;
   animation-name: draw-border;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 @keyframes draw-border {
@@ -138,11 +139,6 @@ p {
   justify-items: center;
   align-items: center;
 }
-.login-form.second {
-  position: absolute;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
 
 .login-user-input {
   width: 283px;
@@ -159,21 +155,19 @@ p {
   color: #363c5f;
   z-index: 1;
 }
-.login-user-input.second {
-  margin-top: 200px;
-}
 
 .login-user-input:focus {
   outline: none;
   transition: ease-out 0.6s;
   animation-name: form-animation;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
 .login-password-input {
   width: 283px;
   height: 37px;
+  margin-bottom: 30px;
   background-color: #fff;
   background: url('./assets/login-lock.svg') no-repeat left 14px center;
   border-radius: 40px;
@@ -190,7 +184,7 @@ p {
   outline: none;
   transition: ease-out 0.6s;
   animation-name: form-animation;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
@@ -215,19 +209,6 @@ p {
     border-left: 6px solid #0692bc;
     background-color: #f4f0f0;
   }
-}
-.login-button {
-  width: 285px;
-  height: 56px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 19px;
-  border-radius: 40px;
-  color: #fff;
-  overflow: hidden;
-  border: none;
-  cursor: pointer;
-  background-color: #0692bc;
 }
 
 /* steps */
@@ -404,10 +385,67 @@ p {
   transition: ease-out 0.3s;
 }
 
-/*  div container  */
+/*  sign-up-form */
+
+.wrapper-1 {
+  display: grid;
+  align-items: center;
+}
+.wrapper-2 {
+  display: grid;
+  align-items: center;
+}
+
+.login-form.second {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 75px;
+  margin-top: 73px;
+  margin-left: 54.5px;
+}
+
+.go-back-button {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 50px;
+  margin-left: -250px;
+  appearance: none;
+  border: none;
+  border-radius: 100%;
+  background: #6ebe45 url('./assets/go-back.svg') no-repeat left 12px center;
+  cursor: pointer;
+}
+
+.login-user-input.second {
+  margin-top: 200px;
+}
+
+.login-button {
+  width: 285px;
+  height: 56px;
+  margin-bottom: 30px;
+  font-size: 19px;
+  border-radius: 40px;
+  color: #fff;
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+  background-color: #0692bc;
+}
 
 .sign-up {
   text-decoration: underline;
   color: #0c5576;
   cursor: pointer;
+}
+
+.sign-up-form {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: -80px;
+  margin-left: 480px;
 }
