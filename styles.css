@@ -279,7 +279,7 @@ p {
   align-items: center;
   justify-content: flex-start;
   margin-right: 100px;
-  width: 550px;
+  width: 600px;
   height: 80px;
 }
 .icon {
@@ -290,8 +290,8 @@ p {
 }
 
 .instagram {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background: url('./assets/social/instagram.svg') no-repeat center;
   cursor: pointer;
 }
@@ -299,8 +299,8 @@ p {
   background: url('./assets/social/instagram-hover.svg') no-repeat center;
 }
 .facebook {
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   background: url('./assets/social/facebook.svg') no-repeat center;
   cursor: pointer;
 }
@@ -308,8 +308,8 @@ p {
   background: url('./assets/social/facebook-hover.svg') no-repeat center;
 }
 .twitter {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background: url('./assets/social/twitter.svg') no-repeat center;
   cursor: pointer;
 }
@@ -317,8 +317,8 @@ p {
   background: url('./assets/social/twitter-hover.svg') no-repeat center;
 }
 .pinterest {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background: url('./assets/social/pinterest.svg') no-repeat center;
   cursor: pointer;
 }
@@ -326,19 +326,19 @@ p {
   background: url('./assets/social/pinterest-hover.svg') no-repeat center;
 }
 .tiktok {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background: url('./assets/social/tiktok.svg') no-repeat center;
   cursor: pointer;
 }
 .tiktok:hover {
-  height: 65px;
-  width: 65px;
+  height: 45px;
+  width: 45px;
   background: url('./assets/social/tiktok-hover.svg') no-repeat center;
 }
 .whatsapp {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background: url('./assets/social/whatsapp.svg') no-repeat center;
   cursor: pointer;
 }
@@ -346,8 +346,8 @@ p {
   background: url('./assets/social/whatsapp-hover.svg') no-repeat center;
 }
 .youtube {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background: url('./assets/social/youtube.svg') no-repeat center;
   cursor: pointer;
 }
