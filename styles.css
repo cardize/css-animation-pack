@@ -75,12 +75,15 @@ p {
 }
 
 /* search box */
-
+.wrapper {
+  display: grid;
+  align-items: center;
+}
 .search-input {
   position: absolute;
   width: 167px;
   height: 41px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
   background: url('./assets/search.svg') no-repeat right 15px center;
   border-radius: 40px;
   border: 2px solid #0692bc;
@@ -89,14 +92,39 @@ p {
   text-transform: none;
   font-size: 22px;
   color: #363c5f;
-  z-index: 1;
 }
 
 .search-input:focus {
-  width: 360px;
   outline: none;
-  border: 6px solid #0692bc;
-  transition: ease-out 0.3s;
+  transition: ease-out 0.6s;
+  animation-name: draw-border;
+  animation-duration: 2s;
+  animation-timing-function: ease-out 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes draw-border {
+  0% {
+    border-top: 6px solid #0692bc;
+    width: 360px;
+  }
+  25% {
+    border-top: 6px solid #0692bc;
+    border-right: 6px solid #0692bc;
+    width: 360px;
+  }
+  75% {
+    border-top: 6px solid #0692bc;
+    border-right: 6px solid #0692bc;
+    border-bottom: 6px solid #0692bc;
+    width: 360px;
+  }
+  100% {
+    border-top: 6px solid #0692bc;
+    border-right: 6px solid #0692bc;
+    border-bottom: 6px solid #0692bc;
+    border-left: 6px solid #0692bc;
+    width: 360px;
+  }
 }
 
 /* login form */
@@ -120,9 +148,11 @@ p {
 
 .login-user-input:focus {
   outline: none;
-  border: 6px solid #0692bc;
-  background-color: #f4f0f0;
-  transition: ease-out 0.3s;
+  transition: ease-out 0.6s;
+  animation-name: form-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-out 1s;
+  animation-fill-mode: forwards;
 }
 
 .login-password-input {
@@ -144,9 +174,34 @@ p {
 
 .login-password-input:focus {
   outline: none;
-  border: 6px solid #0692bc;
-  background-color: #f4f0f0;
-  transition: ease-out 0.3s;
+  transition: ease-out 0.6s;
+  animation-name: form-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-out 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes form-animation {
+  0% {
+    border-top: 6px solid #0692bc;
+  }
+  25% {
+    border-top: 6px solid #0692bc;
+    border-right: 6px solid #0692bc;
+  }
+  75% {
+    border-top: 6px solid #0692bc;
+    border-right: 6px solid #0692bc;
+    border-bottom: 6px solid #0692bc;
+    background-color: #f4f0f0;
+  }
+  100% {
+    border-top: 6px solid #0692bc;
+    border-right: 6px solid #0692bc;
+    border-bottom: 6px solid #0692bc;
+    border-left: 6px solid #0692bc;
+    background-color: #f4f0f0;
+  }
 }
 
 /* steps */
