@@ -299,8 +299,8 @@ p {
   background: url('./assets/social/instagram-hover.svg') no-repeat center;
 }
 .facebook {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   background: url('./assets/social/facebook.svg') no-repeat center;
   cursor: pointer;
 }
