@@ -297,14 +297,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 784px;
+  width: 550px;
   height: 80px;
 }
 
 .instagram {
-  position: absolute;
-  top: 560px;
-  left: 920px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/instagram.svg') no-repeat center;
@@ -314,9 +311,6 @@ p {
   background: url('./assets/social/instagram-hover.svg') no-repeat center;
 }
 .facebook {
-  position: absolute;
-  top: 560px;
-  left: 1000px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/facebook.svg') no-repeat center;
@@ -326,9 +320,6 @@ p {
   background: url('./assets/social/facebook-hover.svg') no-repeat center;
 }
 .twitter {
-  position: absolute;
-  top: 560px;
-  left: 1080px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/twitter.svg') no-repeat center;
@@ -338,9 +329,6 @@ p {
   background: url('./assets/social/twitter-hover.svg') no-repeat center;
 }
 .pinterest {
-  position: absolute;
-  top: 560px;
-  left: 1160px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/pinterest.svg') no-repeat center;
@@ -350,9 +338,6 @@ p {
   background: url('./assets/social/pinterest-hover.svg') no-repeat center;
 }
 .tiktok {
-  position: absolute;
-  top: 560px;
-  left: 1240px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/tiktok.svg') no-repeat center;
@@ -364,9 +349,6 @@ p {
   background: url('./assets/social/tiktok-hover.svg') no-repeat center;
 }
 .whatsapp {
-  position: absolute;
-  top: 560px;
-  left: 1320px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/whatsapp.svg') no-repeat center;
@@ -376,9 +358,6 @@ p {
   background: url('./assets/social/whatsapp-hover.svg') no-repeat center;
 }
 .youtube {
-  position: absolute;
-  top: 560px;
-  left: 1400px;
   width: 60px;
   height: 60px;
   background: url('./assets/social/youtube.svg') no-repeat center;
