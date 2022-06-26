@@ -240,7 +240,7 @@ p {
   height: 100px;
   background-color: #6ebe45;
   border-radius: 40px;
-  transition: ease-out 0.7s;
+  transition: ease-out 0.4s;
   cursor: pointer;
   width: 100px;
   height: 100px;
@@ -277,9 +277,16 @@ p {
 .social {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  margin-right: 100px;
   width: 550px;
   height: 80px;
+}
+.icon {
+  margin-right: 30px;
+}
+.icon:last-child {
+  margin-right: 100px;
 }
 
 .instagram {
