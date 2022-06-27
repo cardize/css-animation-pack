@@ -169,10 +169,9 @@ p {
   height: 37px;
   margin-bottom: 30px;
   background-color: #fff;
-  background-image: url('./assets/login-lock.svg'),
-    url('./assets/login-eye-open.svg');
-  background-repeat: no-repeat, no-repeat;
-  background-position: left 14px center, right 20px center;
+  background-image: url('./assets/login-lock.svg');
+  background-repeat: no-repeat;
+  background-position: left 14px center;
   border-radius: 40px;
   border: 2px solid #0692bc;
   box-shadow: none;
