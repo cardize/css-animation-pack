@@ -169,7 +169,10 @@ p {
   height: 37px;
   margin-bottom: 30px;
   background-color: #fff;
-  background: url('./assets/login-lock.svg') no-repeat left 14px center;
+  background-image: url('./assets/login-lock.svg'),
+    url('./assets/login-eye-open.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 14px center, right 20px center;
   border-radius: 40px;
   border: 2px solid #0692bc;
   box-shadow: none;
@@ -182,6 +185,10 @@ p {
 
 .login-password-input:focus {
   outline: none;
+  background-image: url('./assets/login-lock.svg'),
+    url('./assets/login-eye-closed.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 14px center, right 20px center;
   transition: ease-out 0.6s;
   animation-name: form-animation;
   animation-duration: 1s;
